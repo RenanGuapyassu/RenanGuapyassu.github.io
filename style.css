@@ -2,7 +2,7 @@ body{
     background-image: url("pattern-background-desktop.svg");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color:hsl(225, 100%, 94%);
+    background-color:hsl(225, 100%, 98%);
     
 
 }
@@ -104,8 +104,17 @@ div button{
 }
 @media screen and (max-width: 480px) {
     body{
-        background-size: auto;
-        margin: 33%;
+        background-image: url("pattern-background-mobile.svg");
+        background-size: cover;
     }
-
+    div{
+        margin: 15%;
+        width: 400px;
+    }
+    #hero{
+        width: 400px;
+    }
+    #musicIcon{
+        padding: 0 0 0 40px;
+    }
 }
